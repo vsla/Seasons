@@ -20,7 +20,7 @@ const metas = [
 
 metas.forEach(({ property, content }) => {
   var meta = document.createElement("meta");
-  meta.propert = property;
+  meta.property = property;
   meta.content = content;
   document.getElementsByTagName("head")[0].appendChild(meta);
 });
